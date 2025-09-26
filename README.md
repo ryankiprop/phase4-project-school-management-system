@@ -66,21 +66,36 @@ npm start
 App runs on http://localhost:3000
 
  ## Project Structure
+ ```bash
 school-management-system/
-├── client/                 # React frontend
-│   ├── public/
-│   ├── src/
-│   │   ├── components/     # React components
-│   │   ├── services/       # API services
-│   │   └── App.js          # Main app component
+├── CONTRIBUTING.md
+├── LICENSE.md
+├── Pipfile
+├── Pipfile.lock
+├── README.md
+├── client
+│   ├── README.md
+│   ├── build
+│   ├── node_modules
+│   ├── package-lock.json
 │   ├── package.json
+│   ├── public
+│   ├── src
 │   └── vercel.json
-└── backend/                # Express backend
-    ├── routes/             # API routes
-    ├── models/             # Data models
-    ├── package.json
-    └── server.js           # Server entry point
+├── package-lock.json
+└── server
+    ├── app.py
+    ├── build.sh
+    ├── config.py
+    ├── instance
+    ├── migrations
+    ├── models.py
+    ├── requirements.txt
+    ├── seed.py
+    └── wsgi.py
 
+9 directories, 17 files        
+```
 ## Deployment
 ### Frontend (Vercel)
 
