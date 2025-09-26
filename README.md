@@ -46,25 +46,26 @@ A full-stack web application for managing students, teachers, courses, and enrol
 ```bash
 git clone <your-repo-url>
 cd school-management-system
-
-Backend Setup
-
+```
+## Backend Setup
+```bash
 pipenv install
 pipenv shell
 cd server
 pthon app.py
+```
 
 Server runs on http://localhost:5000
 
-Frontend Setup
-
+## Frontend Setup
+```bash
 cd client
 npm install
 npm start
-
+```
 App runs on http://localhost:3000
 
- Project Structure
+ ## Project Structure
 school-management-system/
 ├── client/                 # React frontend
 │   ├── public/
@@ -80,8 +81,8 @@ school-management-system/
     ├── package.json
     └── server.js           # Server entry point
 
-     Deployment
-Frontend (Vercel)
+## Deployment
+### Frontend (Vercel)
 
 Push code to GitHub
 
@@ -91,7 +92,7 @@ Set environment variables
 
 Auto-deploys on git push
 
-Backend (Render)
+### Backend (Render)
 
 Connect GitHub repo to Render
 
@@ -101,7 +102,7 @@ Configure build and start commands
 
 Set environment variables
 
- Contributing
+## Contributing
 
 Fork the repository
 
@@ -113,7 +114,7 @@ Push to the branch
 
 Open a Pull Request
 
- Troubleshooting
+## Troubleshooting
 Common Issues
 
 CORS errors → Check backend CORS configuration
